@@ -1,9 +1,11 @@
+import './style.css'
+
 function CardGame() {
     return `
-        <article>
-            foo
+        <article class="card-game">
+            <img src="./img/alura-pixel.svg" />
         </article>
-    `
+    `;
 }
 
 export default CardGame
