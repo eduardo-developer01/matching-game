@@ -1,11 +1,12 @@
 import './style.css'
 
-function CardGame() {
+function CardGame(id) {
     return `
-        <article class="card-game">
-            <img src="./img/alura-pixel.svg" />
+    <button>
+        <article class="card-start">
+                <img id="${id}" src="./img/alura-pixel.svg" />
         </article>
-    `;
+    </button>`;
 }
 
 export default CardGame

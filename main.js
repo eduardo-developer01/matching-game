@@ -2,9 +2,11 @@ import './src/styles/settings/colors.css'
 import './src/styles/generic/reset.css'
 import './src/styles/elements/base.css'
 
-import CardGame from './src/components/CardGame'
+import BoardGame from './src/objects/BoardGame'
 
 const $app = document.querySelector('#app')
-const $foo = CardGame().repeat(6)
+const $htmlBoardGame = BoardGame(6)
 
-$app.insertAdjacentHTML('beforeend', $foo)
+$app.insertAdjacentHTML('beforeend', `
+    ${$htmlBoardGame}
+`)
