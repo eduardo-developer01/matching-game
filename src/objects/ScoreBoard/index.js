@@ -1,3 +1,5 @@
+import './style.css'
+
 import PlayerName from '../../components/PlayerName'
 
 export default function ScoreBoard() {
