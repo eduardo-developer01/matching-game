@@ -1,6 +1,8 @@
+import './style.css'
+
 function PlayerGame(content) {
     return `
-        <p class="">
+        <p class="player-name">
             ${content}
         </p>
     `
