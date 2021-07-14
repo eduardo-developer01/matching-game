@@ -1,12 +1,11 @@
-import './style.css'
+import "./style.css";
 
 function CardGame(id) {
-    return `
-    <button>
+	return `
         <article class="card-start">
                 <img id="${id}" src="./img/alura-pixel.svg" />
         </article>
-    </button>`;
+    `;
 }
 
-export default CardGame
+export default CardGame;
