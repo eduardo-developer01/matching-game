@@ -1,11 +1,9 @@
 import "./style.css";
 
-function CardGame(id) {
-	return `
+export default function CardGame(icon = "alura", alt = "loo da alura") {
+    return `
         <article class="card-start">
-                <img id="${id}" src="./img/alura-pixel.svg" />
+                <img src="./img/${icon}.svg" alt="${alt}"/>
         </article>
     `;
 }
-
-export default CardGame;
